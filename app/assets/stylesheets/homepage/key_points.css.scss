@@ -68,17 +68,30 @@ p {
 
 /************************************ Colorful  ************************************/
 #two {
-  background: url(image_path("2-background.png"));
+
+  background: url(image_path("house-background.jpg"));
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 500px;
+  height: 700px;
+
+  h3 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+}
+
+.background-image {
+
 }
 
 .lightbulb-1 {
-    background: black;
 
+  background: black;
   display: inline;
   margin: 0px auto;
   img {
@@ -101,10 +114,10 @@ p {
   }
 }
 
-/************************************ Smart  ************************************/
+/************************************ Music  ************************************/
 #three {
   background: url(image_path("3-background.png")) no-repeat bottom left;
-  height: 600px;
+  height: 700px;
 }
 
 /************************************ Efficient  ************************************/

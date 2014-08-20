@@ -1,4 +1,5 @@
 #faqs {
+  margin-top: 700px;
   padding-bottom: 30px;
   border-bottom: 1px solid #dfdfdf;
   ul {
@@ -18,4 +19,34 @@
       }
     }
   }
+}
+
+.buynow {
+  margin-top:-50px;
+}
+
+#appStore {
+  height: 71.818px;
+  width: 273.991px;
+  background: green;
+  margin-top: 50px;
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+}
+
+
+#googlePlay {
+    height: 71.818px;
+  width: 273.991px;
+  background: green;
+  margin-top: 50px;
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+
 }
