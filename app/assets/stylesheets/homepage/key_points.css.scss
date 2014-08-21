@@ -1,13 +1,12 @@
 .big_wrapper {
   background: $body_background;
   border-bottom: 1px solid #d2d2d2;
-  padding: 0px 35px;
+  padding: 0px 0px;
 }
 
 .big_wrapper .wrapper {
   background: $body_background;
   width: 100%;
-  padding: 35px;
 }
 
 .point_copy {
@@ -68,8 +67,7 @@ p {
 
 /************************************ Colorful  ************************************/
 #two {
-
-  background: url(image_path("house-background.jpg"));
+  background-color: gray;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
