@@ -7,8 +7,7 @@
 .big_wrapper .wrapper {
   background: $body_background;
   width: 100%;
-  padding: 40px 100px;
-
+  padding: 40px 0px;
 }
 
 .point_copy {
@@ -35,6 +34,27 @@ p {
   line-height: 1.5;
 }
 
+/************************************ Main  ************************************/
+.main {
+  margin-left: 10%;
+}
+
+#video 
+{
+  float: left;
+  width: 512px;
+  height: 400px;
+
+  -moz-box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
+  box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
 /************************************ Simple  ************************************/
 #one {
   padding:40px 100px;
@@ -43,6 +63,11 @@ p {
   background-repeat: no-repeat;
   background-size: 160% 160%;
   height: 800px;
+
+  -moz-box-shadow:    0px 1px 30px 0px #acacac;
+  -webkit-box-shadow: 0px 1px 30px 0px #acacac;
+  box-shadow:         0px 1px 30px 0px #acacac;
+
 }
 
 #iphone {
@@ -73,49 +98,28 @@ p {
 
 /************************************ Colorful  ************************************/
 #two {
-  background-size: 100% 100%;
-  background-position: center;
+  padding:40px 100px;
+  background-image: url("3-background.png");
+  background-position: 0px 0px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 700px;
-  width: 100%;
-  background-position: fixed;
+  background-size: 160% 160%;
+  height: 720px;
+  -moz-box-shadow:    0px 1px 30px 0px #acacac;
+  -webkit-box-shadow: 0px 1px 30px 0px #acacac;
+  box-shadow:         0px 1px 30px 0px #acacac;
 
-  h3 {
-    color: white;
-  }
-
-  p {
-    color: white;
+  #video {
+    margin-top: 100px;
+    width: 768px;
+    height: 500px;
   }
 }
 
-.background-image {
-
-}
-
-.lightbulb-1 {
-  background: black;
-  display: inline;
-  margin: 0px auto;
-  img {
-    max-height: 0%;
-    max-width: 10%;
-  }
-  max-height: 100px;
-  max-width: 50px;
-}
-
-.color_wheel {
+.color-wheel {
+  position: relative;
+  top: -350px;
   margin-top: 50px;
   margin-right: 40%;
-  float: right;
-  width: 250px;
-  height: 250px;
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
 }
 
 /************************************ Efficient  ************************************/
@@ -146,9 +150,16 @@ p {
   }
 }
 
-#bottom-wrapper div {
+.names {
+  color: white;
+  margin-top:10px;
+  display: block; 
+}
+
+.status-bar {
   margin-top: 2px;
   width: 100px;
+
   height: 50px;
   display: block;
   border-radius: 10px;
@@ -158,49 +169,31 @@ p {
     font-size: 40px;
     font-weight: 300;
   }
-}
-
-.para {
-
-
-}
-
-.title {
-}
-
-.names {
-  color: white;
-  margin-top:10px;
-  display: block; 
-}
-
-.compare-1 {
   background: rgba(19, 147, 191, 0.8);
 }
 
-
-.animate-1 {
-  -webkit-animation: increase-1 2s; /* Chrome, Safari, Opera */
-  animation: increase-1 2s;
-  width: 880px;
+.animate{
+  -webkit-animation: increase 2s; /* Chrome, Safari, Opera */
+  animation: increase 2s;
+  width: 1000px;
 }
 
-@-webkit-keyframes increase-1 {
+@-webkit-keyframes increase{
   from {
-    width: 400px;
+    width: 100px;
   }
   to {
-    width: 880px;
+    width: 1000px;
   }
 }
 
 /* Standard syntax */
-@keyframes increase-1 {
+@keyframes increase {
   from {
-    width: 400px;
+    width: 100px;
   }
   to {
-    width: 980px;
+    width: 1000px;
   }
 }
 
@@ -214,7 +207,7 @@ p {
   height: 700px;
   -moz-box-shadow:    0px 1px 30px 0px #acacac;
   -webkit-box-shadow: 0px 1px 30px 0px #acacac;
-  box-shadow:         30px 30px 30px 30px black;
+  box-shadow:         0px 1px 30px 0px #acacac;
 }
 
 
