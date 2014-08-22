@@ -35,6 +35,7 @@ p {
 
 /************************************ Simple  ************************************/
 #one {
+  padding: 100px;
   background: url(image_path("1-background.png")) no-repeat bottom left;
   height: 800px;
 }
@@ -112,16 +113,31 @@ p {
   }
 }
 
-/************************************ Music  ************************************/
-#three {
-  background: url(image_path("3-background.png")) no-repeat bottom left;
-  height: 700px;
-}
-
 /************************************ Efficient  ************************************/
-#four {
-  background: url(image_path("4-background.png")) no-repeat bottom left;
-  height: 600px;
+#three {
+  padding: 100px;
+  background-image: url("banff.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 160% 160%;
+  height: 400px;
+
+  p,h3 {
+    border-radius: 10px;
+    color: white;
+    background: rgba(19, 147, 191, 0.8);
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    width: 300px;
+    color: white;
+    margin-bottom: 20px;
+  }
 }
 
 #bottom-wrapper div {
@@ -131,32 +147,31 @@ p {
   display: block;
   border-radius: 10px;
   p {
+    color: white;
     float: right;
     font-size: 40px;
-    color: white;
+    font-weight: 300;
   }
 }
 
+.para {
+
+
+}
+
 .title {
-  margin-bottom: 50px;
 }
 
 .names {
-  margin-top:20px;
+  color: white;
+  margin-top:10px;
   display: block; 
 }
 
 .compare-1 {
-  background: #A4E786;
+  background: rgba(19, 147, 191, 0.8);
 }
 
-.compare-2 {
-  background: #1AD6FD; 
-}
-
-.compare-3 {
-  background:#FF3B30;
-}
 
 .animate-1 {
   -webkit-animation: increase-1 2s; /* Chrome, Safari, Opera */
@@ -164,19 +179,9 @@ p {
   width: 880px;
 }
 
-.animate-2 {
-  -webkit-animation: increase-2 2s; /* Chrome, Safari, Opera */
-  animation: increase-2 2s;
-}
-
-.animate-3 {
-  -webkit-animation: increase-3 2s; /* Chrome, Safari, Opera */
-  animation: increase-3 2s;
-}
-
 @-webkit-keyframes increase-1 {
   from {
-    width: 100px;
+    width: 400px;
   }
   to {
     width: 880px;
@@ -186,55 +191,24 @@ p {
 /* Standard syntax */
 @keyframes increase-1 {
   from {
-    width: 100px;
+    width: 400px;
   }
   to {
     width: 980px;
   }
 }
 
-@-webkit-keyframes increase-2 {
-  from {
-    width: 100px;
-  }
-  to {
-    width: 550px;
-  }
+/************************************ Music  ************************************/
+#four {
+  padding: 100px;
+  background: url(image_path("3-background.png")) no-repeat bottom left;
+  height: 700px;
 }
 
-/* Standard syntax */
-@keyframes increase-2 {
-  from {
-    width: 100px;
-  }
-  to {
-    width: 550px;
-  }
-}
-
-@-webkit-keyframes increase-3 {
-  from {
-    width: 80px;
-  }
-  to {
-    width: 110px;
-  }
-}
-
-/* Standard syntax */
-@keyframes increase-3 {
-  from {
-    width: 80px;
-  }
-  to {
-    width: 110px;
-  }
-}
 
 /************************************ Buy Now ************************************/
 .left {
   background: $body_background;
-
   float: left;
 }
 
