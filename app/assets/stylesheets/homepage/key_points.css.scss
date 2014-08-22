@@ -7,6 +7,8 @@
 .big_wrapper .wrapper {
   background: $body_background;
   width: 100%;
+  padding: 100px;
+
 }
 
 .point_copy {
@@ -36,7 +38,10 @@ p {
 /************************************ Simple  ************************************/
 #one {
   padding: 100px;
-  background: url(image_path("1-background.png")) no-repeat bottom left;
+  background-image: url("1-background.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 160% 160%;
   height: 800px;
 }
 
@@ -68,12 +73,13 @@ p {
 
 /************************************ Colorful  ************************************/
 #two {
-  background-color: gray;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 700px;
+  width: 100%;
+  background-position: fixed;
 
   h3 {
     color: white;
@@ -89,7 +95,6 @@ p {
 }
 
 .lightbulb-1 {
-
   background: black;
   display: inline;
   margin: 0px auto;
@@ -120,8 +125,9 @@ p {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  background-size: 160% 160%;
+  background-size: 100% 100%;
   height: 400px;
+  background-color: black;
 
   p,h3 {
     border-radius: 10px;
@@ -132,7 +138,7 @@ p {
   p {
     margin-bottom: 50px;
   }
-  
+
   h3 {
     width: 300px;
     color: white;
@@ -201,7 +207,10 @@ p {
 /************************************ Music  ************************************/
 #four {
   padding: 100px;
-  background: url(image_path("3-background.png")) no-repeat bottom left;
+  background-image: url("3-background.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 160% 160%;
   height: 700px;
 }
 
