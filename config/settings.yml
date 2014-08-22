@@ -94,9 +94,6 @@ facebook_app_id: "1234567890"
 # Maybe mention something about your product vision -- e.g. "to replace keys with my phone"
 tweet_text: "to crowdfund"
 
-# Google Analytics
-google_id: "UA-54100241-1"
-
 # If you want to change the images for the key points (e.g. "Kickstarter is not a store")
 # They're in app/assets/images/#{pointer_number}-background.png
 # So, the first key point, it's at app/assets/images/1-background.png
