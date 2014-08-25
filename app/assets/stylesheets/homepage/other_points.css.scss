@@ -24,10 +24,12 @@
       height: 80px;
       width: 80px;
     }
-    img:hover{
-      content:url("ClockSelected@2x.png");
-    }
+    background: url(asset-path("", "images")) no-repeat center top;
+    margin-right: 0px;
 
+    img:hover{
+      content:url("BluetoothSelected@2x.png");
+    }
   }
 
   #section-2 {
@@ -39,6 +41,9 @@
     }
     background: url(asset-path("", "images")) no-repeat center top;
     margin-right: 0px;
+    img:hover{
+      content:url("ClockSelected@2x.png");
+    }
   }
 
   #section-3 {
@@ -48,8 +53,14 @@
       height: 70px;
       width: 70px;
     }
+        margin-right: 0px;
+
     background: url(asset-path("", "images")) no-repeat center top;
     margin-bottom: 40px;
+
+    img:hover{
+      content:url("DoNotDisturbSelected@2x.png");
+    }
 
   }
 
@@ -60,10 +71,14 @@
       height: 70px;
       width: 70px;
     }
+        margin-right: 0px;
+
     background: url(asset-path("", "images")) no-repeat center top;
-    margin-right: 0px;
     margin-bottom: 40px;
 
+    img:hover{
+      content:url("DoNotDisturbSelected@2x.png");
+    }
   }
 
   h4 {

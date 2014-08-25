@@ -2,9 +2,12 @@
   margin-top: 750px;
   padding-bottom: 30px;
   border-bottom: 1px solid #dfdfdf;
-  padding: 100px;
+  padding: 0px 100px;
+  h4 {
+    margin: 30px 5%;
+  }
   ul {
-    // margin: 10px 5%;
+    margin: 10px 5%;
     float: left;
     width: 35%;
     li
@@ -14,7 +17,6 @@
       padding-left: 18px;
       background: url(image_path("bullet.png")) no-repeat left 8px;
       p {
-        margin-top: 10px;
         line-height: 1.4;
         font-size: 18px;
       }
@@ -26,20 +28,8 @@
   margin-top:-50px;
 }
 
-#appLogo {
-  margin: 0px 40%;
-  margin-top: 100px;
-  margin-bottom:172px;
-  height: 100px;
-  width: 100px;
-  img {
-    max-height: 100%;
-    max-width: 100%;
-  }
-}
-
 #appStore {
-  margin: 20px 25%;
+  margin: 100px 25% 50px 30%;
   height: 91.818px;
   width: 273.991px;
   img {
@@ -48,7 +38,7 @@
 }
 
 #googlePlay {
-  margin: 10px 25%;
+  margin: 20px 25% 80px 30%;
   height: 71.818px;
   width: 273.991px;
   img {
