@@ -221,3 +221,30 @@ p {
   float: right;
 }
 
+.lampAndBulb {
+  z-index: 1;
+  display: fixed;
+  margin-top: -700px;
+  display: block;
+}
+
+.lightbulb {
+  position: relative;
+  bottom: 100px;
+  left: 170px;
+  z-index: 1;
+}
+
+.move {
+  -webkit-animation: move 2s; 
+  animation: move 2s;
+}
+
+@-webkit-keyframes move{
+  from  {
+    width: 100;
+  }
+  to {
+    width: 400;
+  }
+}
