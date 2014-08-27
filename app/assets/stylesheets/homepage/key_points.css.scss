@@ -55,6 +55,7 @@ p {
 
 /************************************ Simple  ************************************/
 #one {
+  width: 100%;
   background-image: url("1-background.png");
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -130,7 +131,6 @@ p {
 
 /************************************ Colorful  ************************************/
 #two {
-  // padding:5% 70px 5% 10%;
   background-image: url("3-background.png");
   background-position: 0px 0px;
   background-repeat: no-repeat;
