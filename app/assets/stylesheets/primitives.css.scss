@@ -184,6 +184,7 @@ body.lt-ie9 {
   border-radius: $button_border_radius;
   font-family: $primary_font, $secondary_font, $tertiary_font;
 }
+
 .blue_button:hover {
   -moz-box-shadow:
     0 1px 1px $button_box_shadow_color /* drop shadow */,
