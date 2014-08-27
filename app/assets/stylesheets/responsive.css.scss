@@ -1,9 +1,18 @@
-@media only screen and (max-device-width: 660px) {
+@media screen and (max-device-width: 660px) {
+
 	#header {
-		width: 10%;
 		height: 10%;
 		img {
 		}
+	}
+
+	.gray_background {
+		background: black;
+	}
+
+	#video {
+		background:white;
+		float: center;
 	}
 
 	html, body {
