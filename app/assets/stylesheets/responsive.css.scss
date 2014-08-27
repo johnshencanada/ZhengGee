@@ -1,8 +1,21 @@
-@media screen and (max-device-width: 660px) {
+@media screen and (max-width: 660px) {
 
 	#header {
 		height: 10%;
+		.top-left {
+			height: 100%;
+			float: center;
+			display: center;
+			margin: 0% 10%;
+		}
 		img {
+			margin: 0% 0%;
+    		display: block;
+    		width: 20%;
+    		height: 20%;
+		}
+		h1 {
+			margin: 5% 0%;
 		}
 	}
 
