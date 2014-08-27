@@ -7,7 +7,7 @@
 		font-size: 200%;
 	}
 	p {
-		font-size: 200%;
+		font-size: 150%;
 	}
 
 	#header {
@@ -33,14 +33,15 @@
 
 	.gray_background {
 		margin-top: 10%;
-		background: black;
 	}
 	.reserve {
-		width: 300px;
+		width: 600px;
 		height: 100px
+		a {
+			font-size: 400%;
+		}
 	}
 	#video {
-		background:white;
 		float: center;
 	}
 }
