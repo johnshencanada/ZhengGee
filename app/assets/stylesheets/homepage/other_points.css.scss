@@ -19,17 +19,13 @@
 
   #section-1 {
     img {
-      margin: 10px auto;
+      margin: 15px auto;
       display: block;
-      height: 80px;
-      width: 80px;
+      height: 70px;
+      width: 60px;
     }
     background: url(asset-path("", "images")) no-repeat center top;
     margin-right: 0px;
-
-    img:hover{
-      content:url("BluetoothSelected@2x.png");
-    }
   }
 
   #section-2 {
@@ -41,9 +37,6 @@
     }
     background: url(asset-path("", "images")) no-repeat center top;
     margin-right: 0px;
-    img:hover{
-      content:url("ClockSelected@2x.png");
-    }
   }
 
   #section-3 {
@@ -57,11 +50,6 @@
 
     background: url(asset-path("", "images")) no-repeat center top;
     margin-bottom: 40px;
-
-    img:hover{
-      content:url("DoNotDisturbSelected@2x.png");
-    }
-
   }
 
   #section-4 {
@@ -75,10 +63,6 @@
 
     background: url(asset-path("", "images")) no-repeat center top;
     margin-bottom: 40px;
-
-    img:hover{
-      content:url("DoNotDisturbSelected@2x.png");
-    }
   }
 
   h4 {
