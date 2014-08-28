@@ -8,14 +8,16 @@
   width: 90%;
   padding-left: 10%;
   padding-top: 2%;
-
+  padding-bottom: 2%;
   li 
   {
     display: inline-block;
     background:black;
+    opacity: 0.7;
     width: 45%;
     height: 20%;
-    padding-top: 5px;
+    padding-top:5% 5%;
+    margin: 1% 0%;
   }
 
   #section-1 {
@@ -61,7 +63,8 @@
   }
 
   p {
-    margin: 0 0;
+    text-align: center;
+    padding: 0% auto;
     color: white;
     font-size: 18px;
   }
