@@ -2,8 +2,11 @@
 @media screen and (max-device-width: 660px) {
 
 	/* Font resize */
-	h2 {
+	h2{
 		font-size: 200%;
+	}
+	h3 {
+		font-size: 150%;
 	}
 	h4, h5{
 		font-size: 200%;
@@ -47,7 +50,7 @@
 	}
 	/* Top */
 	.gray_background {
-		height: 1000px;
+		height: 1080px;
 		margin-top: 10%;
 	}
 
