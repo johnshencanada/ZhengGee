@@ -22,7 +22,7 @@ product_description: "a set of widgets"
 product_image_path: "video_placeholder2.png"
 
 # The message on the preorder page, Lockitron's is ""
-value_proposition: "Meet the fun  smart  efficient  LED lightbulb"
+value_proposition: "Meet the smart energy efficient LED lightbulb"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
@@ -86,7 +86,7 @@ call_to_action: "Buy Now"
 price_human: "only $59.99 cn!"
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
-dont_give_them_a_reason_to_say_no: ""
+dont_give_them_a_reason_to_say_no: "Ships with amazon"
 
 # Social Stuff
 facebook_app_id: "1234567890"

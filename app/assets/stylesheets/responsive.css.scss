@@ -23,7 +23,7 @@
 
 	/* Header */
 	#header {
-		height: 160px;
+		height: 15%;
 		opacity: 0.8;
 		.top-left {
 			height: 100%;
@@ -48,9 +48,17 @@
 	}
 
 	#backing {
+		background: green;
 		width: 100%;
 		#reserve_container {
+			background: yellow;
 			float: center;
+			#ship_date {
+				background: black;
+			}
+			#price {
+				background: white;
+			}
 		}
 	}
 
@@ -64,7 +72,7 @@
 
 	#video {
 		padding: 0% 5%;
-		width: 90%;
+		width: 80%;
 		height: 60%;
 		float: center;
 	}
@@ -72,7 +80,6 @@
 	/* Simple */
 	/* Colorful */
 	#two {
-
 		#video {
 			height: 10%;
 		}
