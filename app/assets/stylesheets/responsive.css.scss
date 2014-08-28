@@ -47,7 +47,7 @@
 	}
 	/* Top */
 	.gray_background {
-		height: 800px;
+		height: 1000px;
 		margin-top: 10%;
 	}
 
@@ -72,6 +72,9 @@
 		width: 90%;
 		height: 60%;
 		float: center;
+		img {
+			width: 100%;
+		}
 	}
 
 	/* Simple */
