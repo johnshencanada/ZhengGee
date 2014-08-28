@@ -11,6 +11,13 @@
 	p {
 		font-size: 150%;
 	}
+	.reserve {
+		width: 400px;
+		height: 150px
+		a {
+			font-size: 400%;
+		}
+	}
 
 	/* Resize the width to get rid of the spacing on the right side*/
 	#one,#two,#three,#four,#faqs,#logos,.footer,.gray_background {
@@ -47,27 +54,20 @@
 
 	#backing {
 		margin-left: 5%;
-		background: green;
 		width: 80%;
 		#reserve_container {
-			background: yellow;
 			float: center;
-			#ship_date {
-				background: black;
+			#reserve {
+				width: 600px;
+				height: 200px;
 			}
-			#price {
-				background: white;
+			p {
+				font-size: 300%;
 			}
 		}
 	}
 
-	.reserve {
-		width: 400px;
-		height: 150px
-		a {
-			font-size: 400%;
-		}
-	}
+
 
 	#video {
 		padding: 0% 5%;
