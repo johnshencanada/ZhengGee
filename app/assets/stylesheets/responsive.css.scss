@@ -1,5 +1,7 @@
+/* iPhone */
 @media screen and (max-device-width: 660px) {
 
+	/* Font resize */
 	h2 {
 		font-size: 200%;
 	}
@@ -10,6 +12,16 @@
 		font-size: 150%;
 	}
 
+	/* Resize the width to get rid of the spacing on the right side*/
+	#one,#two,#three,#four,#faqs,#logos,.footer,.gray_background {
+		width: 105%;
+	}
+
+	#other_points {
+		width: 100%;
+	}
+
+	/* Header */
 	#header {
 		height: 160px;
 		opacity: 0.8;
@@ -30,7 +42,7 @@
 			margin: 5% 0%;
 		}
 	}
-
+	/* Top */
 	.gray_background {
 		margin-top: 10%;
 	}
@@ -42,14 +54,14 @@
 			font-size: 400%;
 		}
 	}
+
 	#video {
 		float: center;
 	}
-	#one,#two,#three,#four,#faqs,#logos,.footer,.gray_background {
-		width: 105%;
-	}
-	#other_points {
-		width: 102%;
+
+	/* Body */
+	#two {
+
 	}
 }
 
