@@ -83,8 +83,8 @@
 				max-height: 80%;
 			}
 			#video {
-				max-width: 50%;
-				max-height: 50%;
+				max-width: 70%;
+				max-height: 80%;
 			}
 		}
 		#forty-right {
@@ -109,8 +109,9 @@
 	}
 	/* Efficient */
 	#three {
-		 background-image: url("banff-mobile.png");
-
+		background-image: url("banff-mobile.png");
+  		height: 600px;
+  		background-attachment:scroll; 
 	}
 
 }
