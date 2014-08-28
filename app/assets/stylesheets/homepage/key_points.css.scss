@@ -1,10 +1,18 @@
 .big_wrapper {
   background: $body_background;
+    background: black;
+
   border-bottom: 1px solid #d2d2d2;
 }
-
+.main {
+  background: black;
+}
+.clearfix{
+  background: black;
+}
 .big_wrapper .wrapper {
   background: $body_background;
+  background: black;
   width: 100%;
 }
 
@@ -39,6 +47,7 @@ p {
 
 #video 
 {
+  background: black;
   float: left;
   width: 512px;
   height: 400px;
