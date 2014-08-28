@@ -45,6 +45,7 @@
 		float: center;
 	}
 	#one,#two,#three,#four {
+		overflow-x: hidden;
 		width: 102%;
 	}
 }
