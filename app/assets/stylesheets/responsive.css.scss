@@ -69,10 +69,29 @@
 		float: center;
 	}
 
-	/* Body */
+	/* Simple */
+	/* Colorful */
 	#two {
 
+		#video {
+			height: 10%;
+
+		}
+
+		#iphone2 {
+			float: right;
+			display: inline;
+			margin-top: 50px;
+			height: 40%;
+			width: 40%;
+		}
+		img {
+			max-height: 100%;
+			max-width: 100%;
+		}
 	}
+	/* Efficient */
+
 }
 
 @media screen and (min-width: 480px) {
