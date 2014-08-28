@@ -57,12 +57,13 @@
 		width: 80%;
 		#reserve_container {
 			float: center;
-			#reserve {
+			.reserve {
+				font-size: 200%;
 				width: 600px;
 				height: 200px;
 			}
 			p {
-				font-size: 300%;
+				font-size: 200%;
 			}
 		}
 	}
