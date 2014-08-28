@@ -23,7 +23,7 @@
 
 	/* Header */
 	#header {
-		height: 15%;
+		height: 10%;
 		opacity: 0.8;
 		.top-left {
 			height: 100%;
@@ -48,6 +48,7 @@
 	}
 
 	#backing {
+		padding-left:10%;
 		background: green;
 		width: 100%;
 		#reserve_container {
