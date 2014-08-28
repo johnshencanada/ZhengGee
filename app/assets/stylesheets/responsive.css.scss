@@ -27,8 +27,6 @@
 		opacity: 0.8;
 		.top-left {
 			height: 100%;
-			float: center;
-			display: center;
 			margin: 0% 10%;
 		}
 		img {
@@ -48,7 +46,7 @@
 	}
 
 	#backing {
-		margin-left: 0;
+		margin-left: 5%;
 		background: green;
 		width: 80%;
 		#reserve_container {
