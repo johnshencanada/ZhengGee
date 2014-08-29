@@ -1,6 +1,26 @@
-/* iPhone */
-@media screen and (max-device-width: 320px) {
+/* iPhone Portrait Width(5,5c,5s): 480px */
+@media screen and (max-device-width: 568px) 
+{	
+	/* Header */
+	#header {
+		height: 18%;
+		opacity: 0.5;
+	}
+}
 
+/* iPhone Portrait Width(4s): 480px */
+@media screen and (max-device-width: 480px)
+{
+	/* Header */
+	#header {
+		height: 18%;
+		opacity: 0.5;
+	}
+}
+
+/* iPhone Portrait Width(4s, 5, 5c, 5s): 320px */
+@media screen and (max-device-width: 320px) 
+{
 	/* Font resize */
 	h2{
 		font-size: 200%;
@@ -117,21 +137,12 @@
   		height: 500px;
   		background-attachment:scroll; 
 	}
+
 	#faqs {
 		width: 94%;
 	}
+
 	.buynow {
 		height: 600px;
 	}
-
 }
-
-@media screen and (min-width: 480px) {
-
-}
-
-
-@media screen and (min-width: 660px) {
-
-}
-
