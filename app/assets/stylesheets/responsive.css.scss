@@ -1,4 +1,4 @@
-/* iPhone Portrait Width(5,5c,5s): 568px */
+/* iPhone Landscape Width(5,5c,5s): 568px */
 @media screen and (max-device-width: 568px) 
 {	
 	/* Header */
@@ -8,10 +8,9 @@
 	}
 }
 
-/* iPhone Portrait Width(4s): 480px */
+/* iPhone Landscape Width(4s): 480px */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width: 480px) {
+and (min-width : 321px) {
 	/* Header */
 	#header {
 		height: 50%;
@@ -21,7 +20,7 @@ and (max-device-width: 480px) {
 
 /* iPhone Portrait Width(4s, 5, 5c, 5s): 320px */
 @media only screen 
-and (max-device-width: 320px) {
+and (max-width: 320px) {
 	/* Font resize */
 	h2{
 		font-size: 200%;
