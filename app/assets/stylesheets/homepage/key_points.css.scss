@@ -124,6 +124,7 @@ p {
   animation: move 2s;
 }
 
+
 /************************************ Colorful  ************************************/
 #two {
   background-image: url("3-background.png");
@@ -234,7 +235,7 @@ p {
   width: 700px;
 }
 
-@-webkit-keyframes increase{
+@-webkit-keyframes increase {
   from {
     width: 100px;
   }
