@@ -1,5 +1,5 @@
 /* iPhone Landscape Width(5,5c,5s): 568px */
-@media screen and (max-device-width: 568px) 
+@media only screen and (max-device-width: 568px) 
 {	
 	/* Header */
 	#header {
@@ -10,7 +10,7 @@
 
 /* iPhone Landscape Width(4s): 480px */
 @media only screen 
-and (min-width : 321px) {
+and (min-device-width : 321px) {
 	/* Header */
 	#header {
 		height: 50%;
@@ -20,7 +20,7 @@ and (min-width : 321px) {
 
 /* iPhone Portrait Width(4s, 5, 5c, 5s): 320px */
 @media only screen 
-and (max-width: 320px) {
+and (max-device-width: 320px) {
 	/* Font resize */
 	h2{
 		font-size: 200%;
